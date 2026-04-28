@@ -4659,6 +4659,7 @@ use one freetextKeyword assertion for each keyword or phrase.</obo:IAO_0000112>
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#middleName">
         <rdfs:label xml:lang="en">middle name or initial</rdfs:label>
+		<rdfs:domain rdf:resource="http://www.w3.org/2006/vcard/ns#Name"/>
     </owl:DatatypeProperty>
 
 
